@@ -12,7 +12,7 @@ object CheckDrivingVoting {
     val age2=17
     val age3=15
 
-    def checkDivVote(age:Int):Unit={
+    def checkDrivVote(age:Int):Unit={
       if(age>=16)
         if(age>=18)
           println(s"The age $age is eligible for voting and driving")
@@ -21,9 +21,9 @@ object CheckDrivingVoting {
       else
         println(s"The age $age is not eligible for voting and driving")
      }
-    checkDivVote(age1)
-    checkDivVote(age2)
-    checkDivVote(age3)
+    checkDrivVote(age1)
+    checkDrivVote(age2)
+    checkDrivVote(age3)
   }
 
 }
