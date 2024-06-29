@@ -10,7 +10,7 @@ object CheckNegativeOdd {
 
     val num = -10
     val num1 = -9
-    val num2 =2
+    val num2 = 2
 
     def checkNgeOdd(a:Int):Unit={
       if ( (a<0) && (a%2!=0) )
